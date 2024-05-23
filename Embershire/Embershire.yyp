@@ -34,12 +34,16 @@
   },
   "name":"Embershire",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
+    {"id":{"name":"grass","path":"sprites/grass/grass.yy",},},
+    {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
+    {"id":{"name":"walls","path":"sprites/walls/walls.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
