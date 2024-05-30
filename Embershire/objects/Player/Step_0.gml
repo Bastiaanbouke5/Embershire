@@ -1,67 +1,37 @@
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 65DD5410
-/// @DnDArgument : "key" "vk_up"
-var l65DD5410_0;
-l65DD5410_0 = keyboard_check(vk_up);
-if (l65DD5410_0)
-{
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 1DD8A7A9
-	/// @DnDParent : 65DD5410
-	/// @DnDArgument : "speed" "-1"
-	/// @DnDArgument : "type" "2"
-	vspeed = -1;
+// Step Event
+var move_x = 0;
+var move_y = 0;
+
+// Decrease the move cooldown timer
+if (move_cooldown > 0) {
+    move_cooldown--;
 }
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 55C03489
-/// @DnDArgument : "key" "vk_down"
-var l55C03489_0;
-l55C03489_0 = keyboard_check(vk_down);
-if (l55C03489_0)
-{
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 20E01FEB
-	/// @DnDParent : 55C03489
-	/// @DnDArgument : "speed" "1"
-	/// @DnDArgument : "type" "2"
-	vspeed = 1;
+// Check for input and set movement and direction if cooldown is zero
+if (move_cooldown == 0) {
+    if (keyboard_check(vk_up) || keyboard_check(ord("W"))) {
+        move_y = -grid_size;
+        direction = 1; // Up
+        move_cooldown = move_speed;
+    } else if (keyboard_check(vk_down) || keyboard_check(ord("S"))) {
+        move_y = grid_size;
+        direction = 3; // Down
+        move_cooldown = move_speed;
+    } else if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
+        move_x = -grid_size;
+        direction = 2; // Left
+        move_cooldown = move_speed;
+    } else if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
+        move_x = grid_size;
+        direction = 0; // Right
+        move_cooldown = move_speed;
+	}
 }
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 4C353B3F
-/// @DnDArgument : "key" "vk_left"
-var l4C353B3F_0;
-l4C353B3F_0 = keyboard_check(vk_left);
-if (l4C353B3F_0)
-{
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 0D5DF9B3
-	/// @DnDParent : 4C353B3F
-	/// @DnDArgument : "speed" "-1"
-	/// @DnDArgument : "type" "1"
-	hspeed = -1;
-}
+// Move the player based on move_speed
+x += move_x;
+y += move_y;
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 3D7D7304
-/// @DnDArgument : "key" "vk_right"
-var l3D7D7304_0;
-l3D7D7304_0 = keyboard_check(vk_right);
-if (l3D7D7304_0)
-{
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 24C71A04
-	/// @DnDParent : 3D7D7304
-	/// @DnDArgument : "speed" "1"
-	/// @DnDArgument : "type" "1"
-	hspeed = 1;
-}
+sprite_index = sPlayer_strip4;
+image_index = direction;
+image_speed = 0;
