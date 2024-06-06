@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_transition_pixelate","order":1,"path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},
     {"name":"Town1House1","order":1,"path":"rooms/Town1House1/Town1House1.yy",},
+    {"name":"Worldmap_main_1","order":2,"path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},
     {"name":"MACROS","order":2,"path":"scripts/MACROS/MACROS.yy",},
     {"name":"PlayerAnimateSprite","order":3,"path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},
     {"name":"Forest_Cliff","order":4,"path":"sprites/Forest_Cliff/Forest_Cliff.yy",},

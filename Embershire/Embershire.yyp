@@ -40,6 +40,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
     {"id":{"name":"Town1House1","path":"rooms/Town1House1/Town1House1.yy",},},
+    {"id":{"name":"Worldmap_main_1","path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
@@ -73,6 +74,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
     {"roomId":{"name":"Town1House1","path":"rooms/Town1House1/Town1House1.yy",},},
+    {"roomId":{"name":"Worldmap_main_1","path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
