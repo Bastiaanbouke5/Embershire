@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":2,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Embershire",
   "resources":[
@@ -40,7 +40,9 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
     {"id":{"name":"Town1House1","path":"rooms/Town1House1/Town1House1.yy",},},
-    {"id":{"name":"Worldmap_main_1","path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
+    {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},},
+    {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"Forest_Cliff","path":"sprites/Forest_Cliff/Forest_Cliff.yy",},},
     {"id":{"name":"Forest_Props","path":"sprites/Forest_Props/Forest_Props.yy",},},
     {"id":{"name":"Forest_Structures","path":"sprites/Forest_Structures/Forest_Structures.yy",},},
@@ -48,12 +50,14 @@
     {"id":{"name":"Gamemap_demo","path":"sprites/Gamemap_demo/Gamemap_demo.yy",},},
     {"id":{"name":"grass","path":"sprites/grass/grass.yy",},},
     {"id":{"name":"Sample","path":"sprites/Sample/Sample.yy",},},
+    {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},},
     {"id":{"name":"Settlement","path":"sprites/Settlement/Settlement.yy",},},
     {"id":{"name":"sPlayer_strip4","path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
     {"id":{"name":"Trees","path":"sprites/Trees/Trees.yy",},},
     {"id":{"name":"Water","path":"sprites/Water/Water.yy",},},
     {"id":{"name":"wooden","path":"sprites/wooden/wooden.yy",},},
+    {"id":{"name":"Collision_Tile","path":"tilesets/Collision_Tile/Collision_Tile.yy",},},
     {"id":{"name":"Forest_Cliff_Tileset","path":"tilesets/Forest_Cliff_Tileset/Forest_Cliff_Tileset.yy",},},
     {"id":{"name":"Forest_props_tileset","path":"tilesets/Forest_props_tileset/Forest_props_tileset.yy",},},
     {"id":{"name":"Forest_structures_tileset","path":"tilesets/Forest_structures_tileset/Forest_structures_tileset.yy",},},
@@ -69,7 +73,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
     {"roomId":{"name":"Town1House1","path":"rooms/Town1House1/Town1House1.yy",},},
-    {"roomId":{"name":"Worldmap_main_1","path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
