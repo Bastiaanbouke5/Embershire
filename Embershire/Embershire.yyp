@@ -35,6 +35,7 @@
   },
   "name":"Embershire",
   "resources":[
+    {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},},
     {"id":{"name":"obj_transition_parent","path":"objects/obj_transition_parent/obj_transition_parent.yy",},},
     {"id":{"name":"obj_transition_pixelate","path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -53,6 +54,8 @@
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},},
     {"id":{"name":"Settlement","path":"sprites/Settlement/Settlement.yy",},},
     {"id":{"name":"sPlayer_strip4","path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",},},
+    {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
     {"id":{"name":"Trees","path":"sprites/Trees/Trees.yy",},},
     {"id":{"name":"Water_Tileset","path":"sprites/Water_Tileset/Water_Tileset.yy",},},
