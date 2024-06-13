@@ -32,6 +32,7 @@
     {"name":"sPlayer_strip4","order":1,"path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",},
     {"name":"sTiles","order":10,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"Trees","order":11,"path":"sprites/Trees/Trees.yy",},
+    {"name":"Water_Tileset","order":16,"path":"sprites/Water_Tileset/Water_Tileset.yy",},
     {"name":"Water","order":12,"path":"sprites/Water/Water.yy",},
     {"name":"wooden","order":2,"path":"sprites/wooden/wooden.yy",},
     {"name":"Cliff_Tileset","order":1,"path":"tilesets/Cliff_Tileset/Cliff_Tileset.yy",},
@@ -42,6 +43,7 @@
     {"name":"Houses_Tileset","order":5,"path":"tilesets/Houses_Tileset/Houses_Tileset.yy",},
     {"name":"Settlement_tileset","order":6,"path":"tilesets/Settlement_tileset/Settlement_tileset.yy",},
     {"name":"Trees_Tileset","order":7,"path":"tilesets/Trees_Tileset/Trees_Tileset.yy",},
+    {"name":"Water_Animated","order":10,"path":"tilesets/Water_Animated/Water_Animated.yy",},
     {"name":"Water_tileset","order":8,"path":"tilesets/Water_tileset/Water_tileset.yy",},
   ],
 }

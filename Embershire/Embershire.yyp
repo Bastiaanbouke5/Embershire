@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"Embershire",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"sPlayer_strip4","path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
     {"id":{"name":"Trees","path":"sprites/Trees/Trees.yy",},},
+    {"id":{"name":"Water_Tileset","path":"sprites/Water_Tileset/Water_Tileset.yy",},},
     {"id":{"name":"Water","path":"sprites/Water/Water.yy",},},
     {"id":{"name":"wooden","path":"sprites/wooden/wooden.yy",},},
     {"id":{"name":"Cliff_Tileset","path":"tilesets/Cliff_Tileset/Cliff_Tileset.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"Settlement_tileset","path":"tilesets/Settlement_tileset/Settlement_tileset.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"Trees_Tileset","path":"tilesets/Trees_Tileset/Trees_Tileset.yy",},},
+    {"id":{"name":"Water_Animated","path":"tilesets/Water_Animated/Water_Animated.yy",},},
     {"id":{"name":"Water_tileset","path":"tilesets/Water_tileset/Water_tileset.yy",},},
   ],
   "resourceType":"GMProject",
