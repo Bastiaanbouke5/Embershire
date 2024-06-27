@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
+  "%Name":"obj_beam_segment",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_beam_segment","path":"objects/obj_beam_segment/obj_beam_segment.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Player",
+  "name":"obj_beam_segment",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer_strip4",
-    "path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",
+    "name":"spr_dragonBeam",
+    "path":"sprites/spr_dragonBeam/spr_dragonBeam.yy",
   },
-  "spriteMaskId":{
-    "name":"sPlayer_strip4",
-    "path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
