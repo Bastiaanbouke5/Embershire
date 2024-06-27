@@ -1,5 +1,7 @@
 // Create Event of obj_player
-collisionMap = layer_tilemap_get_id(layer_get_id("Water_Tiles"));
+collisionMap = layer_tilemap_get_id(layer_get_id("Rivers_and_Oceans"));
+
+hp = 20;
 
 hSpeed = 0;
 vSpeed = 0;
