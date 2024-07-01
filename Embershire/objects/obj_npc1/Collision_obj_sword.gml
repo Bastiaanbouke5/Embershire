@@ -12,4 +12,3 @@ if (!quest_given) {
 with (other) {
     instance_destroy();
 }
-	

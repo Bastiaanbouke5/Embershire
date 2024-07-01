@@ -17,12 +17,12 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_beam_segment","order":7,"path":"objects/obj_beam_segment/obj_beam_segment.yy",},
     {"name":"obj_cave_entrence","order":6,"path":"objects/obj_cave_entrence/obj_cave_entrence.yy",},
     {"name":"obj_enemy","order":4,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_npc1","order":5,"path":"objects/obj_npc1/obj_npc1.yy",},
     {"name":"obj_sword","order":3,"path":"objects/obj_sword/obj_sword.yy",},
     {"name":"obj_transition_pixelate","order":1,"path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},
-    {"name":"obj_beam_segment","order":7,"path":"objects/obj_beam_segment/obj_beam_segment.yy",},
     {"name":"rm_cave","order":3,"path":"rooms/rm_cave/rm_cave.yy",},
     {"name":"Worldmap_main_1","order":2,"path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},
     {"name":"MACROS","order":2,"path":"scripts/MACROS/MACROS.yy",},
