@@ -5,7 +5,7 @@
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":12,"path":"folders/Notes.yy",},
     {"name":"Objects","order":8,"path":"folders/Objects.yy",},
-    {"name":"vfx","order":2,"path":"folders/Objects/vfx.yy",},
+    {"name":"Managers","order":8,"path":"folders/Objects/Managers.yy",},
     {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":3,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
@@ -21,11 +21,16 @@
     {"name":"obj_enemy","order":4,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_npc1","order":5,"path":"objects/obj_npc1/obj_npc1.yy",},
     {"name":"obj_sword","order":3,"path":"objects/obj_sword/obj_sword.yy",},
+<<<<<<< Updated upstream
     {"name":"obj_transition_pixelate","order":1,"path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},
     {"name":"obj_beam_segment","order":7,"path":"objects/obj_beam_segment/obj_beam_segment.yy",},
     {"name":"rm_cave","order":3,"path":"rooms/rm_cave/rm_cave.yy",},
+=======
+    {"name":"oText","order":9,"path":"objects/oText/oText.yy",},
+>>>>>>> Stashed changes
     {"name":"Worldmap_main_1","order":2,"path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},
     {"name":"MACROS","order":2,"path":"scripts/MACROS/MACROS.yy",},
+    {"name":"NineSliceBoxStretched","order":4,"path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},
     {"name":"PlayerAnimateSprite","order":3,"path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},
     {"name":"Basic_Dragon_2x","order":18,"path":"sprites/Basic_Dragon_2x/Basic_Dragon_2x.yy",},
     {"name":"Cliff","order":15,"path":"sprites/Cliff/Cliff.yy",},
@@ -44,6 +49,7 @@
     {"name":"Sprite16","order":15,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"Sprite17","order":17,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite19","order":19,"path":"sprites/Sprite19/Sprite19.yy",},
+    {"name":"sTextBoxBg_strip4","order":22,"path":"sprites/sTextBoxBg_strip4/sTextBoxBg_strip4.yy",},
     {"name":"sTiles","order":10,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"Trees","order":11,"path":"sprites/Trees/Trees.yy",},
     {"name":"Water_Tileset","order":16,"path":"sprites/Water_Tileset/Water_Tileset.yy",},

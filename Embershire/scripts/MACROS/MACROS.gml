@@ -4,4 +4,8 @@ function MACROS(){
 	#macro FRAME_RATE 60
 	#macro TILE_SIZE 16
 	#macro MOVEMENT_DIRECTIONS 4
+
+	#macro RESOLUTION_W 1920
+	#macro RESOLUTION_H 1080
+
 }
