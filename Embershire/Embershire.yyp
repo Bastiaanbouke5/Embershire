@@ -15,7 +15,7 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Objects/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"vfx","folderPath":"folders/Objects/vfx.yy","name":"vfx","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,26 +35,17 @@
   },
   "name":"Embershire",
   "resources":[
-    {"id":{"name":"fText","path":"fonts/fText/fText.yy",},},
     {"id":{"name":"obj_cave_entrence","path":"objects/obj_cave_entrence/obj_cave_entrence.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"obj_transition_parent","path":"objects/obj_transition_parent/obj_transition_parent.yy",},},
     {"id":{"name":"obj_transition_pixelate","path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},},
     {"id":{"name":"obj_beam_segment","path":"objects/obj_beam_segment/obj_beam_segment.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"rm_cave","path":"rooms/rm_cave/rm_cave.yy",},},
-=======
-    {"id":{"name":"oText","path":"objects/oText/oText.yy",},},
-    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
-    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
-    {"id":{"name":"Town1","path":"rooms/Town1/Town1.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"Worldmap_main_1","path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
-    {"id":{"name":"NineSliceBoxStretched","path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},},
     {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"Basic_Dragon_2x","path":"sprites/Basic_Dragon_2x/Basic_Dragon_2x.yy",},},
@@ -75,7 +66,6 @@
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
-    {"id":{"name":"sTextBoxBg_strip4","path":"sprites/sTextBoxBg_strip4/sTextBoxBg_strip4.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
     {"id":{"name":"Trees","path":"sprites/Trees/Trees.yy",},},
     {"id":{"name":"Water_Tileset","path":"sprites/Water_Tileset/Water_Tileset.yy",},},
@@ -97,6 +87,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Worldmap_main_1","path":"rooms/Worldmap_main_1/Worldmap_main_1.yy",},},
+    {"roomId":{"name":"rm_cave","path":"rooms/rm_cave/rm_cave.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
